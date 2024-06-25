@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        #image {
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ccc;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            line-height: 300px;
+            font-size: 20px;
+            color: #666;
+        }
+        .preview {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="image">Hover over an image below to display here.</div>
+    <div>
+        <img class="preview" src="image1.jpg" alt="Image 1 description">
+        <img class="preview" src="image2.jpg" alt="Image 2 description">
+        <img class="preview" src="image3.jpg" alt="Image 3 description">
+    </div>
 
+    <script src="script.js"></script>
+</body>
+</html>
