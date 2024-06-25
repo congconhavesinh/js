@@ -1,0 +1,16 @@
+#image {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 300px;
+    font-size: 20px;
+    color: #666;
+}
+.preview {
+    width: 100px;
+    height: 100px;
+}
